@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h3 .atrevete{
+    color: aqua;
+}
+.carousel-item {
+    height: 45vh; 
+    min-height: 200px; 
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+nav a:hover {
+    color: #f00;
+}
+
+ /*.container {
+   background-color: #333; 
+    background-image: ../img/dona.jpg;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/*nav ul {
+    list-style-type: none;
+    display: flex;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexWallet.css">
+    <title>Billetera Pagina Principal</title>
+</head>
+<body>
+  <div class="jumbotron text-center">
+    <h1>BILLETERA VIRTUAL RICH</h1>
+  </div>
+
+  <div class="container container-sm">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/imagen3.jpg" class="d-block w-100" alt="banner1">
+          <div class="carousel-caption align-text-top">
+            <h3 class="atrevete">ATREVETE A INVERTIR</h3>
+            <p>Este es el primer paso...</p>
+            <p>tienes un 1.5 % de interes adicional con tu primer ingreso...</p>
+          </div>
+        </div>
+      
+      <div class="carousel-item">
+          <img src="img/imagen2.jpg" class="d-block w-100" alt="banner2">
+          <div class="carousel-caption align-text-top bg-warning px-3">
+            <h3>ATREVETE A INVERTIR</h3>
+            <p>Este es el primer paso...</p>
+            <p>Este es el primer paso...</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagen3.jpg" class="d-block w-100" alt="banner3">
+          <div class="carousel-caption align-text-lg-center">
+          <h3>ATREVETE A INVERTIR</h3>
+          <p>Este es el primer paso...</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <br>
+    <br>
+        <h1>BUSCA TU USUARIO</h1>
+        <div class="table-container">
+          <table class="table table-hover table-custom border-radius-total-5 no-margin" id="tablelistaReservas">
+          <thead class="backGris-light-be">
+              <tr class="s20">
+                <th class="no-borders">RESERVACION</th>
+                <th class="no-borders">NOMBRE</th>
+                <th class="no-borders">LOC_EXTERNO</th>
+                <th class="no-borders">PICKUP</th>
+                <th class="no-borders">RETURN</th>
+                <th class="no-borders">CANAL</th>
+                <th class="no-borders">AUTO</th>
+                <th class="no-borders"></th>
+              </tr>
+          </thead>
+          <tbody class="backWhite">
+            <tr class="s18 colorGrayLight">
+              <td class="no-pad-top no-pad-bot align-middle">1</td>
+              <td class="no-pad-top no-pad-bot align-middle">Pedro Canche Angulo</td>
+              <td class="no-pad-top no-pad-bot align-middle">34577567856</td>
+              <td class="no-pad-top no-pad-bot align-middle">28/may/2018</td>
+              <td class="no-pad-top no-pad-bot align-middle">30/mayo/2018</td>
+              <td class="no-pad-top no-pad-bot align-middle">Web</td>
+              <td class="no-pad-top no-pad-bot align-middle">Jetta</td>
+              <td class="no-pad-top no-pad-bot align-middle">
+              <div class="margin-l-15 checkbox checkboxStyle-table checkColorGreenLight">
+                <input type="checkbox" class="tableid" name="tableid" id="tableid" class="click">
+                <label class="s18 text-normal"></label>
+              </div>
+              </td>
+            </tr>
+            <tr class="s18 colorGrayLight"> 
+              <td class="no-pad-top no-pad-bot align-middle">2</td>
+              <td class="no-pad-top no-pad-bot align-middle">Pablo Canche Angulo</td>
+              <td class="no-pad-top no-pad-bot align-middle">34577567856</td>
+              <td class="no-pad-top no-pad-bot align-middle">28/may/2018</td>
+              <td class="no-pad-top no-pad-bot align-middle">30/mayo/2018</td>
+              <td class="no-pad-top no-pad-bot align-middle">Web</td>
+              <td class="no-pad-top no-pad-bot align-middle">Jetta</td>
+              <td class="no-pad-top no-pad-bot align-middle">
+              <div class="margin-l-15 checkbox checkboxStyle-table checkColorGreenLight">
+                <input type="checkbox" class="tableid" name="tableid" id="tableid" class="click">
+                <label class="s18 text-normal"></label>
+              </div>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+          </div>
+          
+          <div id="mensaje"></div>
+      
+        <!--<div class="table-responsive container-fluid">
+            <table class="table table-hover row1">    
+                <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Apellido</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>             
+         <tbody>
+                    <tr>
+                      <td>Juan</td>
+                      <td>Doe</td>
+                      <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                      <td>Maria</td>
+                      <td>Moe</td>
+                      <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                      <td>Julio</td>
+                      <td>Dooley</td>
+                      <td>july@example.com</td>
+                    </tr>
+                    
+                  </tbody>
+            </table>
+        </div> -->     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"> </script>
+</body>
+</html>
